@@ -29,6 +29,31 @@ nav img{
     background: linear-gradient(136deg, rgb(253, 185, 19), rgb(248, 92, 0));
     
 }
+.card-dc {
+    background: linear-gradient(136deg, #004c93, #0358a7);
+}
+.card-KXIP {
+    background: linear-gradient(136deg, #aa4545, #740f0b);
+}
+.card-kkr {
+    background: linear-gradient(136deg, #70458f, #3d2057);
+}
+
+.card-mi {
+    background: linear-gradient(136deg, #0c75c0, #034472);
+}
+
+.card-rr {
+    background: linear-gradient(136deg, #2d4d9d, #172e5e);
+}
+
+.card-rcb {
+    background: linear-gradient(136deg, #000, #464646);
+}
+
+.card-srh {
+    background: linear-gradient(136deg, #fb643e, #b81c25);
+}
 
 .card img{
     height: 80px;
@@ -50,7 +75,7 @@ nav img{
 
 .trophy{
     margin: 5%;
-    width: 40%;
+    width: 60%;
     background-color: rgb(194, 194, 194);
     border-radius: 10px;
 }

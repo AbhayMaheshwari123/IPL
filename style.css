@@ -74,10 +74,17 @@ nav img{
     margin-left: 3%;
     width: 100%;
 }
+.card h5{
+    display: none;
+}
+.card h6{
+    display: none;
+}
 
 .trophy{
     margin: 5%;
     width: max-content;
+    padding-right: 6px;
     background-color: hsla(0,0%,7%,0.35);
     border-radius: 10px;
 }
@@ -93,7 +100,7 @@ nav img{
     .card{
         flex-direction: column;
         width: 27%;
-        height: 200px;
+        height: 260px;
     }
     .card img{
         width: 100px;
@@ -107,7 +114,27 @@ nav img{
     .card h4{
         width: 100%;
     }
+    .card h5{
+        display: inline;
+        color:floralwhite;
+        margin-left: 30%;
+        margin-bottom:auto ;
+    }
     .trophy{
         margin: auto;
+        
+    }
+    
+    .card h6{
+        display: inline;
+        color: floralwhite;
+        margin-left: 18%;
+        
+    }
+}
+
+@media  screen and (min-width:880px) {
+    .card img{
+        margin-left: 30%;
     }
 }

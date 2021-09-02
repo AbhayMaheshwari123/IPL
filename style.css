@@ -67,7 +67,7 @@ nav img{
 
 }
 .card h4{
-    color:rgba(255, 255, 0, 0.788);
+    color:rgb(255, 255, 0);
     text-align: center;
     margin: 1%;
     
@@ -76,6 +76,6 @@ nav img{
 .trophy{
     margin: 5%;
     width: 60%;
-    background-color: rgb(194, 194, 194);
+    background-color: rgb(126, 126, 126);
     border-radius: 10px;
 }

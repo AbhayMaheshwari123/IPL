@@ -10,6 +10,7 @@ nav {
 nav img{
     height: 70px;
     width: 110px;
+
 }
 
 
@@ -57,25 +58,56 @@ nav img{
 
 .card img{
     height: 80px;
-    margin: 5px 5px;
+    margin: 0.5rem 0.5rem;
+    
 }
 
 .card h3{
     margin:5%;
     color:white;
     font-weight: bolder;
+    
 
 }
 .card h4{
     color:rgb(255, 255, 0);
-    text-align: center;
-    margin: 1%;
-    
+    margin-left: 3%;
+    width: 100%;
 }
 
 .trophy{
     margin: 5%;
-    width: 60%;
-    background-color: rgb(126, 126, 126);
+    width: max-content;
+    background-color: hsla(0,0%,7%,0.35);
     border-radius: 10px;
+}
+
+@media screen and (min-width:700px) {
+    .container{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+    }
+    .card{
+        flex-direction: column;
+        width: 27%;
+        height: 200px;
+    }
+    .card img{
+        width: 100px;
+        margin-left: 25%;
+        margin-top: -2%;
+    }
+
+    .card h3{
+        text-align: center;
+    }
+    .card h4{
+        width: 100%;
+    }
+    .trophy{
+        margin: auto;
+    }
 }

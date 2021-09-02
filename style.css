@@ -11,3 +11,46 @@ nav img{
     height: 70px;
     width: 110px;
 }
+
+
+.card{
+    width: 95%;
+    height: 10%;
+    margin: 3% 3%;
+    display: flex;
+    border-radius: 10px;
+
+}
+.detail{
+    width: 100%;
+}
+
+.card-csk{
+    background: linear-gradient(136deg, rgb(253, 185, 19), rgb(248, 92, 0));
+    
+}
+
+.card img{
+    height: 80px;
+    margin: 5px 5px;
+}
+
+.card h3{
+    margin:5%;
+    color:white;
+    font-weight: bolder;
+
+}
+.card h4{
+    color:rgba(255, 255, 0, 0.788);
+    text-align: center;
+    margin: 1%;
+    
+}
+
+.trophy{
+    margin: 5%;
+    width: 40%;
+    background-color: rgb(194, 194, 194);
+    border-radius: 10px;
+}

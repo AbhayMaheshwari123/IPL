@@ -1,0 +1,13 @@
+body{
+    margin: 0;
+}
+nav {
+    background-color: rgb(56, 34, 177);
+    height: 70px;
+    width: 100%;
+}
+
+nav img{
+    height: 70px;
+    width: 110px;
+}

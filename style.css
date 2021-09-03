@@ -24,6 +24,7 @@ nav img{
 }
 .detail{
     width: 100%;
+    flex:1;
 }
 
 .card-csk{
@@ -63,7 +64,7 @@ nav img{
 }
 
 .card h3{
-    margin:5%;
+    
     color:white;
     font-weight: bolder;
     
@@ -100,7 +101,7 @@ nav img{
     .card{
         flex-direction: column;
         width: 27%;
-        height: 260px;
+        height: 280px;
     }
     .card img{
         width: 100px;
@@ -118,7 +119,7 @@ nav img{
         display: inline;
         color:floralwhite;
         margin-left: 30%;
-        margin-bottom:auto ;
+
     }
     .trophy{
         margin: auto;
@@ -126,9 +127,13 @@ nav img{
     }
     
     .card h6{
-        display: inline;
-        color: floralwhite;
-        margin-left: 18%;
+    /* display: inline; */
+    color: floralwhite;
+    /* margin-left: 18%; */
+    /* clear: left; */
+    display: flex;
+    justify-content: center;
+    align-content: center;
         
     }
 }

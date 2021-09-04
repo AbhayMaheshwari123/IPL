@@ -26,6 +26,9 @@ nav img{
 .cskbanner{
     width: 100%;
 }
+.cskbanner2{
+    display: none;
+}
 
 .detail{
     display: flex;
@@ -75,4 +78,55 @@ nav img{
     margin-bottom: 25%;
     width: min-content;
     font-size:15px;
+}
+
+@media screen and (min-width:460px) {
+    .container{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+    }
+    .card{
+        flex-direction: column;
+        width: 40%;
+    }
+    .scorecard div {
+        padding: 0;
+        margin:5%;
+    }
+    .scorecard h5{
+        font-size: smaller;
+    }
+}
+
+@media screen and (min-width:660px) {
+    .card{
+        width: 30%;
+    }
+}
+
+@media screen and (min-width:1020px){
+    .card{
+        width:20%;
+    }
+    .scorecard div{
+        padding:0 9% 0 9%;
+    }
+    
+    
+    .banner{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .banner img{
+        width: 50%;
+    }
+    .cskbanner2{
+        display: flex; 
+    }
+    
+   
 }

@@ -124,3 +124,4 @@ const fetchData = fetch("https://ipl-t20.herokuapp.com/teams", {
         } 
     }
 });
+

@@ -12,7 +12,10 @@ nav img{
     width: 110px;
 
 }
-
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
 
 .card{
     width: 95%;

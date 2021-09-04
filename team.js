@@ -55,7 +55,9 @@ Wickets=[
     document.querySelector('#wickets-name11'),
 ]
 
-const teamdetail=[
+
+
+const teamcsk=[
     
       {
         "id": "2101",
@@ -178,8 +180,674 @@ const teamdetail=[
           "wickets": 0
         }
       }
-    ]
-  
+]
+
+const teamdc=[
+  {
+    "id": "2101563",
+    "name": "Shreyas Iyer",
+    "nationality": "Indian",
+    "image": "https://iplstatic.s3.amazonaws.com/players/210/1563.png",
+    "stats": {
+      "matches": 16,
+      "runs": 463,
+      "wickets": 0
+    }
+  },
+  {
+    "id": "2101664",
+    "name": "Kagiso Rabada",
+    "nationality": "",
+    "image": "https://iplstatic.s3.amazonaws.com/players/210/1664.png",
+    "stats": {
+      "matches": 12,
+      "runs": 14,
+      "wickets": 25
+    }
+  },
+  {
+    "id": "21038",
+    "name": "Ishant Sharma",
+    "nationality": "Indian",
+    "image": "https://iplstatic.s3.amazonaws.com/players/210/38.png",
+    "stats": {
+      "matches": 13,
+      "runs": 10,
+      "wickets": 13
+    }
+  },
+  {
+    "id": "21041",
+    "name": "Shikar Dhawan",
+    "nationality": "Indian",
+    "image": "https://iplstatic.s3.amazonaws.com/players/210/41.png",
+    "stats": {
+      "matches": 16,
+      "runs": 521,
+      "wickets": 0
+    }
+  },
+  {
+    "id": "2103764",
+    "name": "Prithwi Shaw",
+    "nationality": "Indian",
+    "image": "https://iplstatic.s3.amazonaws.com/players/210/3764.png",
+    "stats": {
+      "matches": 16,
+      "runs": 353,
+      "wickets": 10
+    }
+  },
+  {
+    "id": "2101113",
+    "name": "Axar Patel",
+    "nationality": "Indian",
+    "image": "https://iplstatic.s3.amazonaws.com/players/210/1113.png",
+    "stats": {
+      "matches": 14,
+      "runs": 110,
+      "wickets": 10
+    }
+  },
+  {
+    "id": "2102972",
+    "name": "Rishabh Pant",
+    "nationality": "Indian",
+    "image": "https://iplstatic.s3.amazonaws.com/players/210/2972.png",
+    "stats": {
+      "matches": 16,
+      "runs": 488,
+      "wickets": 0
+    }
+  },
+  {
+    "id": "21030",
+    "name": "Amit Mishra",
+    "nationality": "Indian",
+    "image": "https://iplstatic.s3.amazonaws.com/players/210/30.png",
+    "stats": {
+      "matches": 11,
+      "runs": 21,
+      "wickets": 11
+    }
+  }
+]
+
+const teamkxip=[
+  {
+    "id": "2101563",
+    "name": "Shreyas Iyer",
+    "nationality": "Indian",
+    "image": "https://iplstatic.s3.amazonaws.com/players/210/1563.png",
+    "stats": {
+      "matches": 16,
+      "runs": 463,
+      "wickets": 0
+    }
+  },
+  {
+    "id": "2101664",
+    "name": "Kagiso Rabada",
+    "nationality": "",
+    "image": "https://iplstatic.s3.amazonaws.com/players/210/1664.png",
+    "stats": {
+      "matches": 12,
+      "runs": 14,
+      "wickets": 25
+    }
+  },
+  {
+    "id": "21038",
+    "name": "Ishant Sharma",
+    "nationality": "Indian",
+    "image": "https://iplstatic.s3.amazonaws.com/players/210/38.png",
+    "stats": {
+      "matches": 13,
+      "runs": 10,
+      "wickets": 13
+    }
+  },
+  {
+    "id": "21041",
+    "name": "Shikar Dhawan",
+    "nationality": "Indian",
+    "image": "https://iplstatic.s3.amazonaws.com/players/210/41.png",
+    "stats": {
+      "matches": 16,
+      "runs": 521,
+      "wickets": 0
+    }
+  },
+  {
+    "id": "2103764",
+    "name": "Prithwi Shaw",
+    "nationality": "Indian",
+    "image": "https://iplstatic.s3.amazonaws.com/players/210/3764.png",
+    "stats": {
+      "matches": 16,
+      "runs": 353,
+      "wickets": 10
+    }
+  },
+  {
+    "id": "2101113",
+    "name": "Axar Patel",
+    "nationality": "Indian",
+    "image": "https://iplstatic.s3.amazonaws.com/players/210/1113.png",
+    "stats": {
+      "matches": 14,
+      "runs": 110,
+      "wickets": 10
+    }
+  },
+  {
+    "id": "2102972",
+    "name": "Rishabh Pant",
+    "nationality": "Indian",
+    "image": "https://iplstatic.s3.amazonaws.com/players/210/2972.png",
+    "stats": {
+      "matches": 16,
+      "runs": 488,
+      "wickets": 0
+    }
+  },
+  {
+    "id": "21030",
+    "name": "Amit Mishra",
+    "nationality": "Indian",
+    "image": "https://iplstatic.s3.amazonaws.com/players/210/30.png",
+    "stats": {
+      "matches": 11,
+      "runs": 21,
+      "wickets": 11
+    }
+  }
+]
+const teamkkr=[
+  {
+    "id": "2101563",
+    "name": "Shreyas Iyer",
+    "nationality": "Indian",
+    "image": "https://iplstatic.s3.amazonaws.com/players/210/1563.png",
+    "stats": {
+      "matches": 16,
+      "runs": 463,
+      "wickets": 0
+    }
+  },
+  {
+    "id": "2101664",
+    "name": "Kagiso Rabada",
+    "nationality": "",
+    "image": "https://iplstatic.s3.amazonaws.com/players/210/1664.png",
+    "stats": {
+      "matches": 12,
+      "runs": 14,
+      "wickets": 25
+    }
+  },
+  {
+    "id": "21038",
+    "name": "Ishant Sharma",
+    "nationality": "Indian",
+    "image": "https://iplstatic.s3.amazonaws.com/players/210/38.png",
+    "stats": {
+      "matches": 13,
+      "runs": 10,
+      "wickets": 13
+    }
+  },
+  {
+    "id": "21041",
+    "name": "Shikar Dhawan",
+    "nationality": "Indian",
+    "image": "https://iplstatic.s3.amazonaws.com/players/210/41.png",
+    "stats": {
+      "matches": 16,
+      "runs": 521,
+      "wickets": 0
+    }
+  },
+  {
+    "id": "2103764",
+    "name": "Prithwi Shaw",
+    "nationality": "Indian",
+    "image": "https://iplstatic.s3.amazonaws.com/players/210/3764.png",
+    "stats": {
+      "matches": 16,
+      "runs": 353,
+      "wickets": 10
+    }
+  },
+  {
+    "id": "2101113",
+    "name": "Axar Patel",
+    "nationality": "Indian",
+    "image": "https://iplstatic.s3.amazonaws.com/players/210/1113.png",
+    "stats": {
+      "matches": 14,
+      "runs": 110,
+      "wickets": 10
+    }
+  },
+  {
+    "id": "2102972",
+    "name": "Rishabh Pant",
+    "nationality": "Indian",
+    "image": "https://iplstatic.s3.amazonaws.com/players/210/2972.png",
+    "stats": {
+      "matches": 16,
+      "runs": 488,
+      "wickets": 0
+    }
+  },
+  {
+    "id": "21030",
+    "name": "Amit Mishra",
+    "nationality": "Indian",
+    "image": "https://iplstatic.s3.amazonaws.com/players/210/30.png",
+    "stats": {
+      "matches": 11,
+      "runs": 21,
+      "wickets": 11
+    }
+  }
+]
+
+const teammi=[
+  {
+    "id": "2101563",
+    "name": "Shreyas Iyer",
+    "nationality": "Indian",
+    "image": "https://iplstatic.s3.amazonaws.com/players/210/1563.png",
+    "stats": {
+      "matches": 16,
+      "runs": 463,
+      "wickets": 0
+    }
+  },
+  {
+    "id": "2101664",
+    "name": "Kagiso Rabada",
+    "nationality": "",
+    "image": "https://iplstatic.s3.amazonaws.com/players/210/1664.png",
+    "stats": {
+      "matches": 12,
+      "runs": 14,
+      "wickets": 25
+    }
+  },
+  {
+    "id": "21038",
+    "name": "Ishant Sharma",
+    "nationality": "Indian",
+    "image": "https://iplstatic.s3.amazonaws.com/players/210/38.png",
+    "stats": {
+      "matches": 13,
+      "runs": 10,
+      "wickets": 13
+    }
+  },
+  {
+    "id": "21041",
+    "name": "Shikar Dhawan",
+    "nationality": "Indian",
+    "image": "https://iplstatic.s3.amazonaws.com/players/210/41.png",
+    "stats": {
+      "matches": 16,
+      "runs": 521,
+      "wickets": 0
+    }
+  },
+  {
+    "id": "2103764",
+    "name": "Prithwi Shaw",
+    "nationality": "Indian",
+    "image": "https://iplstatic.s3.amazonaws.com/players/210/3764.png",
+    "stats": {
+      "matches": 16,
+      "runs": 353,
+      "wickets": 10
+    }
+  },
+  {
+    "id": "2101113",
+    "name": "Axar Patel",
+    "nationality": "Indian",
+    "image": "https://iplstatic.s3.amazonaws.com/players/210/1113.png",
+    "stats": {
+      "matches": 14,
+      "runs": 110,
+      "wickets": 10
+    }
+  },
+  {
+    "id": "2102972",
+    "name": "Rishabh Pant",
+    "nationality": "Indian",
+    "image": "https://iplstatic.s3.amazonaws.com/players/210/2972.png",
+    "stats": {
+      "matches": 16,
+      "runs": 488,
+      "wickets": 0
+    }
+  },
+  {
+    "id": "21030",
+    "name": "Amit Mishra",
+    "nationality": "Indian",
+    "image": "https://iplstatic.s3.amazonaws.com/players/210/30.png",
+    "stats": {
+      "matches": 11,
+      "runs": 21,
+      "wickets": 11
+    }
+  }
+]
+
+const teamrr=[
+  {
+    "id": "2101563",
+    "name": "Shreyas Iyer",
+    "nationality": "Indian",
+    "image": "https://iplstatic.s3.amazonaws.com/players/210/1563.png",
+    "stats": {
+      "matches": 16,
+      "runs": 463,
+      "wickets": 0
+    }
+  },
+  {
+    "id": "2101664",
+    "name": "Kagiso Rabada",
+    "nationality": "",
+    "image": "https://iplstatic.s3.amazonaws.com/players/210/1664.png",
+    "stats": {
+      "matches": 12,
+      "runs": 14,
+      "wickets": 25
+    }
+  },
+  {
+    "id": "21038",
+    "name": "Ishant Sharma",
+    "nationality": "Indian",
+    "image": "https://iplstatic.s3.amazonaws.com/players/210/38.png",
+    "stats": {
+      "matches": 13,
+      "runs": 10,
+      "wickets": 13
+    }
+  },
+  {
+    "id": "21041",
+    "name": "Shikar Dhawan",
+    "nationality": "Indian",
+    "image": "https://iplstatic.s3.amazonaws.com/players/210/41.png",
+    "stats": {
+      "matches": 16,
+      "runs": 521,
+      "wickets": 0
+    }
+  },
+  {
+    "id": "2103764",
+    "name": "Prithwi Shaw",
+    "nationality": "Indian",
+    "image": "https://iplstatic.s3.amazonaws.com/players/210/3764.png",
+    "stats": {
+      "matches": 16,
+      "runs": 353,
+      "wickets": 10
+    }
+  },
+  {
+    "id": "2101113",
+    "name": "Axar Patel",
+    "nationality": "Indian",
+    "image": "https://iplstatic.s3.amazonaws.com/players/210/1113.png",
+    "stats": {
+      "matches": 14,
+      "runs": 110,
+      "wickets": 10
+    }
+  },
+  {
+    "id": "2102972",
+    "name": "Rishabh Pant",
+    "nationality": "Indian",
+    "image": "https://iplstatic.s3.amazonaws.com/players/210/2972.png",
+    "stats": {
+      "matches": 16,
+      "runs": 488,
+      "wickets": 0
+    }
+  },
+  {
+    "id": "21030",
+    "name": "Amit Mishra",
+    "nationality": "Indian",
+    "image": "https://iplstatic.s3.amazonaws.com/players/210/30.png",
+    "stats": {
+      "matches": 11,
+      "runs": 21,
+      "wickets": 11
+    }
+  }
+]
+
+const teamrcb=[
+  {
+    "id": "2101563",
+    "name": "Shreyas Iyer",
+    "nationality": "Indian",
+    "image": "https://iplstatic.s3.amazonaws.com/players/210/1563.png",
+    "stats": {
+      "matches": 16,
+      "runs": 463,
+      "wickets": 0
+    }
+  },
+  {
+    "id": "2101664",
+    "name": "Kagiso Rabada",
+    "nationality": "",
+    "image": "https://iplstatic.s3.amazonaws.com/players/210/1664.png",
+    "stats": {
+      "matches": 12,
+      "runs": 14,
+      "wickets": 25
+    }
+  },
+  {
+    "id": "21038",
+    "name": "Ishant Sharma",
+    "nationality": "Indian",
+    "image": "https://iplstatic.s3.amazonaws.com/players/210/38.png",
+    "stats": {
+      "matches": 13,
+      "runs": 10,
+      "wickets": 13
+    }
+  },
+  {
+    "id": "21041",
+    "name": "Shikar Dhawan",
+    "nationality": "Indian",
+    "image": "https://iplstatic.s3.amazonaws.com/players/210/41.png",
+    "stats": {
+      "matches": 16,
+      "runs": 521,
+      "wickets": 0
+    }
+  },
+  {
+    "id": "2103764",
+    "name": "Prithwi Shaw",
+    "nationality": "Indian",
+    "image": "https://iplstatic.s3.amazonaws.com/players/210/3764.png",
+    "stats": {
+      "matches": 16,
+      "runs": 353,
+      "wickets": 10
+    }
+  },
+  {
+    "id": "2101113",
+    "name": "Axar Patel",
+    "nationality": "Indian",
+    "image": "https://iplstatic.s3.amazonaws.com/players/210/1113.png",
+    "stats": {
+      "matches": 14,
+      "runs": 110,
+      "wickets": 10
+    }
+  },
+  {
+    "id": "2102972",
+    "name": "Rishabh Pant",
+    "nationality": "Indian",
+    "image": "https://iplstatic.s3.amazonaws.com/players/210/2972.png",
+    "stats": {
+      "matches": 16,
+      "runs": 488,
+      "wickets": 0
+    }
+  },
+  {
+    "id": "21030",
+    "name": "Amit Mishra",
+    "nationality": "Indian",
+    "image": "https://iplstatic.s3.amazonaws.com/players/210/30.png",
+    "stats": {
+      "matches": 11,
+      "runs": 21,
+      "wickets": 11
+    }
+  }
+]
+
+const teamsrh=[
+  {
+    "id": "2101563",
+    "name": "Shreyas Iyer",
+    "nationality": "Indian",
+    "image": "https://iplstatic.s3.amazonaws.com/players/210/1563.png",
+    "stats": {
+      "matches": 16,
+      "runs": 463,
+      "wickets": 0
+    }
+  },
+  {
+    "id": "2101664",
+    "name": "Kagiso Rabada",
+    "nationality": "",
+    "image": "https://iplstatic.s3.amazonaws.com/players/210/1664.png",
+    "stats": {
+      "matches": 12,
+      "runs": 14,
+      "wickets": 25
+    }
+  },
+  {
+    "id": "21038",
+    "name": "Ishant Sharma",
+    "nationality": "Indian",
+    "image": "https://iplstatic.s3.amazonaws.com/players/210/38.png",
+    "stats": {
+      "matches": 13,
+      "runs": 10,
+      "wickets": 13
+    }
+  },
+  {
+    "id": "21041",
+    "name": "Shikar Dhawan",
+    "nationality": "Indian",
+    "image": "https://iplstatic.s3.amazonaws.com/players/210/41.png",
+    "stats": {
+      "matches": 16,
+      "runs": 521,
+      "wickets": 0
+    }
+  },
+  {
+    "id": "2103764",
+    "name": "Prithwi Shaw",
+    "nationality": "Indian",
+    "image": "https://iplstatic.s3.amazonaws.com/players/210/3764.png",
+    "stats": {
+      "matches": 16,
+      "runs": 353,
+      "wickets": 10
+    }
+  },
+  {
+    "id": "2101113",
+    "name": "Axar Patel",
+    "nationality": "Indian",
+    "image": "https://iplstatic.s3.amazonaws.com/players/210/1113.png",
+    "stats": {
+      "matches": 14,
+      "runs": 110,
+      "wickets": 10
+    }
+  },
+  {
+    "id": "2102972",
+    "name": "Rishabh Pant",
+    "nationality": "Indian",
+    "image": "https://iplstatic.s3.amazonaws.com/players/210/2972.png",
+    "stats": {
+      "matches": 16,
+      "runs": 488,
+      "wickets": 0
+    }
+  },
+  {
+    "id": "21030",
+    "name": "Amit Mishra",
+    "nationality": "Indian",
+    "image": "https://iplstatic.s3.amazonaws.com/players/210/30.png",
+    "stats": {
+      "matches": 11,
+      "runs": 21,
+      "wickets": 11
+    }
+  }
+]
+
+
+
+function storeid(nameofteam){
+  team=nameofteam
+  if(team=="csk"){
+    setdata(teamcsk);
+  }else if(team =="dc"){
+    setdata(teamdc);
+  }else if(team=="kxip"){
+    setdata(teamkxip);
+  }else if (team="kkr"){
+    setdata(teamkkr);
+  }else if(team=="mi"){
+    setdata(teammi);
+  }else if(team=="rr"){
+    setdata(teamrr);
+  }else if(team=="rcb"){
+    setdata(teamrcb);
+  }else if(team=="srh"){
+    setdata(teamsrh);
+  }
+}
+function setdata(teamdetail){
+  for (let i = 0; i < teamdetail.length; i++) {
+    PlayerName[i].innerText = teamdetail[i].name
+    Matches[i].innerText = teamdetail[i].stats.matches
+    Runs[i].innerText=teamdetail[i].stats.runs
+    Wickets[i].innerText=teamdetail[i].stats.wickets
+  }
+}
 
 // function setTeam(a) {
 //     team = a
@@ -245,10 +913,3 @@ const teamdetail=[
 //     }
 // }
 
-for (let i = 0; i < teamdetail.length; i++) {
-    PlayerName[i].innerText = teamdetail[i].name
-    Matches[i].innerText = teamdetail[i].stats.matches
-    Runs[i].innerText=teamdetail[i].stats.runs
-    Wickets[i].innerText=teamdetail[i].stats.wickets
-
-}

@@ -15,16 +15,57 @@ nav img{
     justify-content: space-around;
     width: 100%;
 }
-.team-player div{
-    width: 100%;
+
+.Playername h5{
+    color: black;
 }
+
 
 .playerdetail h4,h6{
     text-align: center;
 }
-.playerphoto{
+.playerphoto-csk{
     background: linear-gradient(136deg, rgb(253, 185, 19), rgb(248, 92, 0));
     border-radius: 9px 9px 0 0;
+}
+.playerphoto-dc{
+    background: linear-gradient(136deg ,#004c93,#0358a7);
+    border-radius: 9px 9px 0 0;
+}
+
+.playerphoto-kkr{
+    background: linear-gradient(136deg,#70458f,#3d2057);
+    border-radius: 9px 9px 0 0;
+}
+
+.playerphoto-kxip{
+    background: linear-gradient(136deg,#aa4545,#740f0b);
+    border-radius: 9px 9px 0 0;
+}
+
+.playerphoto-mi{
+    background: linear-gradient( 136deg,#005da0,#003a63);
+    border-radius: 9px 9px 0 0;
+
+}
+.playerphoto-rcb{
+    background: linear-gradient(136deg,#000,#464646);
+    border-radius: 9px 9px 0 0;
+
+}
+.playerphoto-rr{
+    background: linear-gradient( 136deg,#2d4d9d,#172e5e);
+    border-radius: 9px 9px 0 0;
+
+}
+.playerphoto-srh{
+    background: linear-gradient(136deg,#fb643e,#b81c25);
+    border-radius: 9px 9px 0 0;
+
+}
+
+.black{
+    margin: 1%;
 }
 .card img{
 
@@ -45,6 +86,9 @@ nav img{
 .cskbanner2{
     display: none;
 }
+.black{
+    color: black;
+}
 
 .detail{
     display: flex;
@@ -61,6 +105,7 @@ nav img{
     margin-bottom: 0;
     margin-top: 25%;
     width: min-content;
+    color: black;
     
 }
 .scorecard div{
@@ -154,3 +199,6 @@ nav img{
 
 
 
+.playerphoto-csk img, .playerphoto-dc img, .playerphoto-kkr img, .playerphoto-kxip img, .playerphoto-mi img, .playerphoto-rcb img, .playerphoto-rr img, .playerphoto-srh img{
+    width: 100%;
+}

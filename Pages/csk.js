@@ -24,13 +24,13 @@ let Csk = {
                 <div class="team-card-container">
                     <div  class="team-player">
                         ${playersList.players.map(player =>
-                            `<div class="card card-csk">
-                            <div class="playerphoto"><img id="img-name1" src=${player.image} alt=${player.name}></div>
+                        `<div class="card ">
+                            <div class="playerphoto-csk"><img id="img-name1" src=${player.image} alt=${player.name}></div>
                             <div class="playerdetail">
                                 <div class="Playername">
                                     <h5 id="name1">${player.name}</h5>
                                 </div>
-                                <h6 >IPL 2021</h6>
+                                <h6 class="black">IPL 2021</h6>
                                 <div class="scorecard">
                                     <div class="matches">
                                         <h5 id="match-name1">${player.stats.matches}</h5>
@@ -45,7 +45,7 @@ let Csk = {
                                         <h5>Wickets</h5>
                                     </div>
                                 </div>
-                                <div><h4>View Profile</h4></div>
+                                <div><h4 class="black">View Profile</h4></div>
                             </div>
                         </div>`
                         ).join('')

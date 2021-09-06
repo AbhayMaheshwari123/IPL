@@ -1,127 +1,40 @@
-TeamName = [
-    document.querySelector('#TeamName-csk'),
-    document.querySelector('#TeamName-dc'),
-    document.querySelector('#TeamName-kxip'),
-    document.querySelector('#TeamName-kkr'),
-    document.querySelector('#TeamName-mi'),
-    document.querySelector('#TeamName-rr'),
-    document.querySelector('#TeamName-rcb'),
-    document.querySelector('#TeamName-srh'),
+import Dc from './Pages/dc.js';
+import Csk from './Pages/csk.js';
+import Pk from './Pages/kxip.js';
+import Kkr from './Pages/kkr.js';
+import Mi from './Pages/mi.js';
+import Rcb from './Pages/rcb.js';
+import Rr from './Pages/rr.js';
+import Srh from './Pages/srh.js';
+// import Error404 from './Pages/Error.js';
+import Utils from './Service/util.js';
+import Teams from './Pages/team.js';
 
-]
-TeamVenue = [
-    document.querySelector('#venue-csk'),
-    document.querySelector('#venue-dc'),
-    document.querySelector('#venue-kxip'),
-    document.querySelector('#venue-kkr'),
-    document.querySelector('#venue-mi'),
-    document.querySelector('#venue-rr'),
-    document.querySelector('#venue-rcb'),
-    document.querySelector('#venue-srh'),
+const routes = {
+    '/': Teams,
+    '/teams': Teams,
+    '/chennai-super-kings': Csk,
+    '/delhi-capital': Dc,
+    '/punjab-kings': Pk,
+    '/kolkata-knight-rider': Kkr,
+    '/mumbai-indians': Mi,
+    '/rajasthan-royal': Rr,
+    '/royal-challenger-banglore': Rcb,
+    '/sunriser-hyderabad': Srh
+};
 
-]
-TeamTrophy = [
-    document.querySelector('#trophy-csk'),
-    document.querySelector('#trophy-dc'),
-    document.querySelector('#trophy-kxip'),
-    document.querySelector('#trophy-kkr'),
-    document.querySelector('#trophy-mi'),
-    document.querySelector('#trophy-rr'),
-    document.querySelector('#trophy-rcb'),
-    document.querySelector('#trophy-srh'),
 
-]
 
-const bckup=[
-    {
-      "id": "chennai-super-kings",
-      "teamName": "Chennai Super Kings",
-      "winningYears": [
-        2010,
-        2011,
-        2018
-      ],
-      "venue": "M. A. Chidambaram Stadium"
-    },
-    {
-      "id": "delhi-capitals",
-      "teamName": "Delhi Capitals",
-      "winningYears": [],
-      "venue": "Feroz Shah Kotla Ground"
-    },
-    {
-      "id": "kings-xi-punjab",
-      "teamName": "Kings XI Punjab",
-      "winningYears": [],
-      "venue": "IS Bindra Stadium"
-    },
-    {
-      "id": "kolkata-knight-riders",
-      "teamName": "Kolkata Knight Riders",
-      "winningYears": [
-        2012,
-        2014
-      ],
-      "venue": "Eden Gardens"
-    },
-    {
-      "id": "mumbai-indians",
-      "teamName": "Mumbai Indians",
-      "winningYears": [
-        2013,
-        2015,
-        2017,
-        2019
-      ],
-      "venue": "Wankhede Stadium"
-    },
-    {
-      "id": "rajasthan-royals",
-      "teamName": "Rajasthan Royals",
-      "winningYears": [
-        2008
-      ],
-      "venue": "Sawai Mansingh Stadium"
-    },
-    {
-      "id": "royal-challengers-bangalore",
-      "teamName": "Royal Challengers Bangalore",
-      "winningYears": [],
-      "venue": "M. Chinnaswamy Stadium"
-    },
-    {
-      "id": "sunrisers-hyderabad",
-      "teamName": "Sunrisers Hyderabad",
-      "winningYears": [
-        2016
-      ],
-      "venue": "Rajiv Gandhi Intl. Cricket Stadium"
-    }
-  ]
+const router = async () => {
+   
+    const content = document.getElementById('container');
+    let request = Utils.parseRequestURL()
+    let parsedURL = (request.resource ? '/' + request.resource : '/')
+    let page = routes[parsedURL] ? routes[parsedURL] : Error404
+    content.innerHTML = await page.render();
+    await page.after_render();
+}
 
-const fetchData = fetch("https://ipl-t20.herokuapp.com/teams", {
-    method: "GET",
-}).then((data) => { return data.json() }).then((finaldata) => {
-    teamsdata = finaldata
-    if (finaldata.length != 0) {
-        for (let i = 0; i < teamsdata.length; i++) {
-            TeamName[i].innerText = teamsdata[i].teamName
-            TeamVenue[i].innerText = teamsdata[i].venue
-            if (teamsdata[i].winningYears.length > 0) {
-                TeamTrophy[i].innerText = teamsdata[i].winningYears
+window.addEventListener('hashchange', router);
 
-            } 
-
-        }
-    }
-}).catch((e) => {
-    for (let i = 0; i < bckup.length; i++) {
-        TeamName[i].innerText = bckup[i].teamName
-        TeamVenue[i].innerText = bckup[i].venue
-        if (bckup[i].winningYears.length > 0) {
-            TeamTrophy[i].innerText = bckup[i].winningYears
-
-        } 
-    }
-});
-
+window.addEventListener('load', router);

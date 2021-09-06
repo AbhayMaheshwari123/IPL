@@ -36,3 +36,13 @@ a{
 .card-srh{
   background: linear-gradient(136deg,#fb643e,#b81c25);
 }
+
+.error{
+  width:100%;
+  height: 100%;
+  text-align: center;
+  text-transform: capitalize;
+  font-family: sans-serif;
+  margin: auto;
+  padding: auto;
+}

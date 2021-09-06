@@ -6,7 +6,7 @@ import Mi from './Pages/mi.js';
 import Rcb from './Pages/rcb.js';
 import Rr from './Pages/rr.js';
 import Srh from './Pages/srh.js';
-// import Error404 from './Pages/Error.js';
+import Error404 from './Pages/error.js';
 import Utils from './Service/util.js';
 import Teams from './Pages/team.js';
 

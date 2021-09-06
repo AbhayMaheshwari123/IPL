@@ -24,7 +24,7 @@ let Rr ={
                 <div class="team-card-container">
                 <div  class="team-player">
                     ${playersList.players.map(player =>
-                        `<div class="card ">
+                        `<div class="card card-rr">
                         <div class="playerphoto"><img id="img-name1" src="${player.image} alt=${player.name}" alt=""></div>
                         <div class="detail">
                             <div class="Playername">

@@ -13,8 +13,15 @@ nav img{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    width: 100%;
+}
+.team-player div{
+    width: 100%;
 }
 
+.playerdetail h4,h6{
+    text-align: center;
+}
 .playerphoto{
     background: linear-gradient(136deg, rgb(253, 185, 19), rgb(248, 92, 0));
     border-radius: 9px 9px 0 0;
@@ -60,11 +67,13 @@ nav img{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0 30% 0 30%;
+    padding: 0 0 10% 0;
 }
 
 .Playername h5{
-    margin:0 auto 0 auto;
+    /* margin: 10% auto 0 25%; */
+    font-size: large;
+    
 }
 .Playername h3{
     margin-top: 0;
@@ -72,6 +81,7 @@ nav img{
 }
 .scorecard h5{
     margin-top: 25%;
+    
 }
 
 .detail h6{
@@ -80,7 +90,7 @@ nav img{
 }
 .detail h3{
     
-    font-size: x-large;
+    font-size: large;
 }
 .detail h5{
     text-align: center;
@@ -139,3 +149,8 @@ nav img{
     
    
 }
+
+
+
+
+

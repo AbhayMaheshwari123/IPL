@@ -1,3 +1,38 @@
+
+.card h3,h4,h5,h6{
+  color: white
+}
 h5{
-    text-align: center;
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+
+.card-csk{
+  background: linear-gradient( 136deg,#fdb913,#f85c00);
+}
+.card-dc{
+  background: linear-gradient(136deg ,#004c93,#0358a7);
+}
+.card-kkr{
+  background: linear-gradient(136deg,#70458f,#3d2057);
+}
+.card-mi{
+  background: linear-gradient( 136deg,#005da0,#003a63);
+}
+.card-KXIP{
+  background: linear-gradient(136deg,#aa4545,#740f0b);
+}
+.card-rr{
+  background: linear-gradient( 136deg,#2d4d9d,#172e5e);
+}
+.card-rcb{
+  background: linear-gradient(136deg,#000,#464646);
+}
+.card-srh{
+  background: linear-gradient(136deg,#fb643e,#b81c25);
 }

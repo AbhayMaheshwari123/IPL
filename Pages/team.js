@@ -100,7 +100,7 @@ let Teams = {
     
             <div class="card card-rcb">
                 <a href="/#/teams/royal-challenger-banglore">
-                <img src="Assests/rcb.png" alt="">
+                <img src="Assests/rr.png" alt="">
                 <div class="detail">
                     <h3 id="TeamName-rcb">${teams[6].teamName}</h3>
                     <h6 id="venue-rcb">${teams[6].venue}</h6>
